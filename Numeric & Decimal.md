@@ -15,8 +15,10 @@ Example:
 
 ```sql
 CREATE TABLE sales (
-  totalAmount DECIMAL(8, 3),  -- 8 digits, 3 after the decimal
-  discountRate NUMERIC(5, 2)  -- 5 digits, 2 after the decimal
+  price DECIMAL(6, 2),   -- 6 digits total, 2 digits after the decimal
+  discount NUMERIC(5, 1) -- 5 digits total, 1 digit after the decimal
 );
 
-INSERT INTO sales VALUES (12345.678, 15.50);
+Explanations:
+In the price field, 6 digits are allowed, with 2 digits after the decimal point (e.g., 1234.56).
+In the discount field, 5 digits are allowed, with 1 digit after the decimal point (e.g., 45.5).
