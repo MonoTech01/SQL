@@ -1,1 +1,1 @@
-Welcome to my Database Fundamentals notes repository! This collection covers key concepts and practical examples from my computer science aspects on databases, focusing on SQL and essential database management topics.
+This collection covers key concepts and practical examples from my computer science aspects on databases, focusing on SQL and essential database management topics.
