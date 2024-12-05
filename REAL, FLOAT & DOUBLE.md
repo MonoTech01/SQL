@@ -1,4 +1,4 @@
-# SQL Data Types: REAL, FLOAT, and DOUBLE
+# REAL, FLOAT, and DOUBLE
 
 They are used to store approximate numeric values, especially for floating-point numbers. These data types are particularly useful when you need to represent numbers with many decimal places.
 
