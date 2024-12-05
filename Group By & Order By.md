@@ -81,5 +81,3 @@ Now, we see all the products in the **Electronics** category grouped, and the re
 - **Aggregate functions** are required when using `GROUP BY` to calculate summaries (e.g., counts, averages, sums).
 
 SQL provides powerful ways to query and analyze data, and combining `GROUP BY` with `ORDER BY` makes it easy to organize and summarize information in relational databases.
-```
-
