@@ -1,4 +1,3 @@
-```markdown
 # CHAR vs. VARCHAR in SQL
 
 In SQL, **CHAR** and **VARCHAR** are both used to store text, but they differ in how they manage data length.
