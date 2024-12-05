@@ -37,11 +37,11 @@ ON reservations.name = customers.name;
 
 | reservation_id | name      | table_id | customer_id | email              |
 |----------------|-----------|----------|-------------|--------------------|
-| 1              | Alice     | 101      | 1           | alice@email.com     |
+| 1              | Alice     | 101      | 1           | alice@email.com-     |
 | 2              | Bob       | 102      | NULL        | NULL               |
-| 3              | Charlie   | 103      | 3           | charlie@email.com   |
+| 3              | Charlie   | 103      | 3           | charlie@email.com-   |
 | 4              | Diana     | 104      | NULL        | NULL               |
-| NULL           | Eve       | NULL     | 2           | eve@email.com       |
+| NULL           | Eve       | NULL     | 2           | eve@email.com-     |
 | NULL           | Frank     | NULL     | 5           | frank@email.com     |
 
 ### Explanation of the Full Outer Join Result:
