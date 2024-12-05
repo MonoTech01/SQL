@@ -5,6 +5,7 @@
 ## Key Differences:
 - **NUMERIC**: Strictly follows the specified scale (number of digits after the decimal).
 - **DECIMAL**: May store more decimal digits than specified.
+- They should not be used together!
 
 ## Syntax:
 Both data types require you to specify **precision (p)** and **scale (s)**:
