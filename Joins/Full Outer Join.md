@@ -17,10 +17,10 @@ A **Full Outer Join** combines the results of both a **Left Join** and a **Right
 ### **Customers Table**
 | customer_id | name      | email              |
 |-------------|-----------|--------------------|
-| 1           | Alice     | alice@email.com     |
-| 2           | Eve       | eve@email.com       |
-| 3           | Charlie   | charlie@email.com   |
-| 5           | Frank     | frank@email.com     |
+| 1           | Alice     | alice@email.com-     |
+| 2           | Eve       | eve@email.com-       |
+| 3           | Charlie   | charlie@email.com-   |
+| 5           | Frank     | frank@email.com-     |
 
 ## Full Outer Join Query
 
@@ -42,7 +42,7 @@ ON reservations.name = customers.name;
 | 3              | Charlie   | 103      | 3           | charlie@email.com-   |
 | 4              | Diana     | 104      | NULL        | NULL               |
 | NULL           | Eve       | NULL     | 2           | eve@email.com-     |
-| NULL           | Frank     | NULL     | 5           | frank@email.com     |
+| NULL           | Frank     | NULL     | 5           | frank@email.com-     |
 
 ### Explanation of the Full Outer Join Result:
 
@@ -73,8 +73,8 @@ WHERE reservation_id IS NULL OR customer_id IS NULL;
 |----------------|-----------|----------|-------------|--------------------|
 | 2              | Bob       | 102      | NULL        | NULL               |
 | 4              | Diana     | 104      | NULL        | NULL               |
-| NULL           | Eve       | NULL     | 2           | eve@email.com       |
-| NULL           | Frank     | NULL     | 5           | frank@email.com     |
+| NULL           | Eve       | NULL     | 2           | eve@email.com-       |
+| NULL           | Frank     | NULL     | 5           | frank@email.com-     |
 
 ### Explanation:
 - The query filters out the rows where both the `reservation_id` and `customer_id` are `NULL`. This way, we are only interested in the rows where there are missing matches, either because a customer didn’t make a reservation or a reservation did not have a matching customer.
